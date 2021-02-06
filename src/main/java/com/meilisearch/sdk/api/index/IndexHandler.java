@@ -131,7 +131,6 @@ public class IndexHandler {
 		return settingsHandler.resetSettings(index);
 	}
 
-
 	/**
 	 * Get Index Stats
 	 * Refer https://docs.meilisearch.com/reference/api/stats.html#get-stat-of-an-index

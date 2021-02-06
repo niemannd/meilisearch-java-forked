@@ -20,10 +20,12 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 import static org.hamcrest.MatcherAssert.assertThat;
+
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.any;
 import static org.mockito.Mockito.*;
+
 
 class IndexHandlerTest {
 
@@ -105,7 +107,6 @@ class IndexHandlerTest {
 		assertThat(classToTest.resetSettings("test"), is(equalTo(dummyUpdate)));
 		assertThat(classToTest.updateSettings("test", dummySettings), is(equalTo(dummyUpdate)));
 	}
-
 
 	@Test
 	void singleStats() throws Exception {

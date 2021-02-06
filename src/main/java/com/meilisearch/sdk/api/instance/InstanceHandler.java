@@ -20,7 +20,7 @@ public class InstanceHandler {
 
 	/**
 	 * Refer https://docs.meilisearch.com/reference/api/health.html
-	 *
+   *
 	 * @return true if everything is ok, false if meilisearch is in maintenance mode
 	 */
 	public boolean isHealthy() {

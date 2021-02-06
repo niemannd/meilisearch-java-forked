@@ -29,6 +29,7 @@ public class IndexStats {
 	}
 
 	public void setIsIndexing(boolean indexing) {
+
 		isIndexing = indexing;
 	}
 
